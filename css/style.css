@@ -98,7 +98,7 @@
 .plan a:hover {
     text-decoration: none;
     opacity: 0.8;
-    cursor: hand;
+    cursor: pointer;
 }
 
 .payment {
@@ -120,7 +120,7 @@
 
 .payment:hover {
     background-color: rgba(0, 0, 255, 0.5);
-    cursor: hand;
+    cursor: pointer;
 }
 
 .cancel a {
@@ -134,5 +134,5 @@
 
 .cancel a:hover {
     color: hsl(223, 47%, 23%);
-    cursor: hand;
+    cursor: pointer;
 }
