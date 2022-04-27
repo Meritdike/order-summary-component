@@ -92,6 +92,13 @@
 
 .plan a {
     font-size: 12px;
+    color: hsl(245, 75%, 52%);
+}
+
+.plan a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    cursor: hand;
 }
 
 .payment {
@@ -111,6 +118,11 @@
     font-size: 10px;
 }
 
+.payment:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+    cursor: hand;
+}
+
 .cancel a {
     text-decoration: none;
     display: inline-block;
@@ -120,6 +132,7 @@
     padding-top: 19px;
 }
 
-a:hover {
+.cancel a:hover {
+    color: hsl(223, 47%, 23%);
     cursor: hand;
 }
